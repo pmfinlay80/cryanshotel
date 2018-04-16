@@ -1,0 +1,574 @@
+/* this file is: mystyle.css */ 
+
+/*web page displayed inside set size container*/
+/*apply set width, border,padding & set background color*/
+#wrapper
+	{
+	width:1300px;
+	border: 2px solid #2F4F4F;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #eff6f6;
+	}
+
+/*name & logo styling*/
+/*set background color, border & padding*/
+header
+	{
+	background-color: white;
+	border: 1px solid #347174;
+	padding: 10px 0px 0px 0px;
+	}
+	
+/*header logo styling*/	
+/*float to left and set position*/
+.one
+	{
+	float: left;
+	margin: 25px 0px 0px 25px;
+	}
+
+/*header name styling*/	
+/*apply to center & padding*/
+.two	{
+	border-left: 300px;
+	padding: 0px 0px 15px 80px;
+	}
+
+/*main section styling across all pages height auto to page with a margin*/	
+main
+	{
+	height: auto;
+	margin: 5px;
+	}
+
+	
+
+/*Index Page H1 Styling*/
+.content_title
+	{
+	color: #2F4F4F;
+	text-align: center;
+	}
+
+/*Index Page Subtitle H2 Styling*/
+.content_subtitle 
+	{
+	color: #347174;
+	text-align: center;
+	}
+	
+/*H1, H2 & H3 styling throughout site*/
+h1
+	{
+	color: #2F4F4F;
+	text-align: center;
+	}
+
+h2
+	{
+	color: #347174;
+	}
+	
+h3
+	{
+	color: #437070;
+	}
+	
+
+/*Main Navigation Bar Styling*/	
+/*block bar, floated left, with color changes on active, hover & selected, and contact link page set to far right*/
+.topnav 
+	{
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #708090;
+	}
+
+.topnav li 
+	{
+	float: left;
+	}
+
+.topnav li a 
+	{
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	font-weight: bold;
+	font-size: 17px;
+	font-family: times;
+    	padding: 14px 26px;
+    	text-decoration: none;
+	}
+
+.topnav li a:hover:not(.active) 
+	{
+	background-color: #2F4F4F;
+	}
+
+.topnav li a.active 
+	{
+	background-color: #347174;
+	}
+
+.topnav li.right 
+	{
+	float: right;
+	}
+
+/*images on index page styling with margins & padding*/
+.images
+	{
+	margin: 1px;
+	padding: 1px;
+	}
+
+.images img
+	{
+	padding: 1px;
+	}
+	
+/*text section of index page set in container, set size & centered*/
+.text_container
+	{
+	text-align: center; 
+	font-size: 18px;
+	}
+	
+/*facebook & mail icons on index page centered*/
+.icons
+	{
+	list-style-type: none;
+	margin: 0px 0px 0px 600px;
+    	padding: 0;
+	}
+	
+.icons li
+	{
+	display: inline;
+	}
+	
+/*voucher text centered & img on index page*/
+.voucher
+	{
+	text-align: center;
+	}
+	
+	
+.voucher img
+	{
+	margin: 0px 0px 0px 10px;
+    	padding: 0;
+	}
+	
+/*footer styling across site*/	
+/*cleared floats, margins, border, background color & alignment*/
+footer
+	{
+	clear: both;
+	margin: 5px;
+	background-color: white;
+	border: 1px solid #347174;
+	display: block;
+	color: #2F4F4F;
+    	text-align: left;
+	}
+
+footer a
+	{
+	color: #2F4F4F;
+	}
+
+/*copyright section styling across site*/
+.copy
+	{
+	padding: 0px 0px 15px 20px;
+	}
+	
+/*image styling on left side of contact page, float & margins*/
+.contactimageleft
+	{
+	float: left;
+	margin: 50px 5px;
+	padding: 10px;
+	}
+
+/*image styling on right side of contact page, float & margins*/
+.contactimageright
+	{
+	float: right;
+	margin: 50px 5px;
+	padding: 10px;
+	}
+	
+/*text styling on contact page, centered & margin*/
+.contact
+	{
+	float: left;
+	margin: 10px;
+	text-align: center;
+	}
+
+/*images styling on gallery page*/
+/*bookmarks at top displayed inline, centered & colored to scheme*/
+.gallerymain ul
+	{
+	list-style-type: none;
+	}
+
+.gallerymain ul li
+	{
+	display: inline;
+	margin-left: 100px;
+	padding: 10px;
+	}
+	
+.gallerymain li a
+	{
+	color: #347174;
+	}	
+
+/*heading on images to link to bookmarks, centered & colored to scheme*/	
+.gallerymain h2
+	{
+	text-align: center;
+	color: #437070;
+	clear: both;
+	}
+
+/*border applied to images*/
+.gallerymain img
+	{
+	border: 1px solid #708090;
+	}
+
+/*images set 2 wide across page with set width, odd images under headings centered*/
+.galleryleft
+	{
+	float: left;
+	padding: 5px;
+	width: 635px;
+	}
+
+.galleryright
+	{
+	float: right;
+	padding: 5px;
+	width: 635px;
+	}
+	
+.gallerycenter
+	{
+	clear: both;
+	margin-left: 350px;
+	width: 635px;
+	}
+
+
+/*styling of text overlay on images on gallery page, container applied to cover image*/	
+.container 
+	{
+    	position: relative;
+    	width: 100%;
+	}
+
+/*set position of images*/
+.middle 
+	{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+
+/*set opacity on hover*/
+.container:hover .image 
+	{
+  	opacity: 0.3;
+	}
+
+.container:hover .middle 
+	{
+  	opacity: 1;
+	}
+
+/*text applied to center of image*/
+.text 
+	{
+ 	background-color: #437070;
+  	color: white;
+  	font-size: 18px;
+  	padding: 16px 32px;
+	}
+	
+/*text styling on rooms page, centered, margin & padding*/
+.rooms
+	{
+	padding: 10px 30px 10px 300px;
+	margin: 10px;
+	text-align: center;
+	}
+
+/*image styling on rooms page margin, floated left, margin & padding*/
+.rooms img
+	{
+	margin-left: 5px;
+	}
+	
+.roomsimg
+	{
+	float: left;
+	margin: 30px;
+	padding: 10px;
+	}
+
+/*text styling on location page, centered & margin*/
+.location
+	{
+	text-align: center;
+	margin: 20px;
+	}
+
+/*map image styling on location page with border*/
+.location img
+	{
+	border: 1px solid #708090;
+	}
+	
+/*sitemap page styling, text aligned to left*/
+.site
+	{
+	margin-left: 200px;
+	padding: 15px 10px;
+	}
+
+/*unordered list without styling for links contained on pages, following color scheme*/
+.site ul li 
+	{
+	list-style-type: none;
+	color: #708090;
+	margin-left: 150px;
+	font-size: 18px;
+	padding: 10px;
+	}
+	
+.site li a
+	{
+	color: #2F4F4F;
+	}
+	
+/*ordered list without styling, underlined for website page links, following color scheme*/
+.site ol li
+	{
+	list-style-type: none;
+	text-decoration: underline;
+	font-size: 20px;
+	padding: 10px;
+	}
+
+/*styling of local links page following color scheme*/
+.links h3 a
+	{
+	color: #2F4F4F;
+	margin-left: 300px;
+	}
+	
+.links h4 a
+	{
+	color: #708090;
+	margin-left: 500px;
+	}
+
+/*bar page styling*/
+/*text styling on bar page following color scheme*/
+.bar
+	{
+	float: left;
+	width: 600px;
+	}
+
+.bar h3
+	{
+	clear: right;
+	margin-left: 120px;
+	}
+
+.bar h3 a
+	{
+	clear: right;
+	color: #2F4F4F;
+	}
+	
+.bar h4 
+	{
+	clear: right;
+	color: #708090;
+	margin-left: 180px;
+	}
+
+/*image floated right, margin & padding*/
+.barimage
+	{
+	float: right;
+	margin: 30px 10px;
+	padding: 30px 35px 30px 5px;
+	}
+	
+/*dining page styling*/
+/*text floated in container to left, following color scheme*/
+.dining
+	{
+	float: left;
+	width: 600px;
+	padding-left: 15px;
+	}
+	
+.dining h2
+	{
+	text-align: center;
+	color: #347174;
+	}
+
+.dining h3
+	{
+	margin-left: 50px;
+	}
+
+.dining h3 a
+	{
+	margin-left: 10px;
+	color: #2F4F4F;
+	}
+	
+.dining h4 
+	{
+	color: #708090;
+	margin-left: 150px;
+	}
+
+/*dining page image floated right, margin & padding*/
+.diningimg
+	{
+	float: right;
+	margin: 30px 10px;
+	padding: 30px 35px 30px 5px;
+	}
+
+/*Confirmation/Communion section on dining page styling, centered*/	
+.diningbase
+	{
+	clear: both;
+	text-align: center;
+	}
+
+/*styling on enquiry form page*/
+/*set width of form, background color, margin, border and padding*/
+.enquiryform
+	{
+	width: 900px;
+	background-color: #e2eeee;
+	margin: 15px 190px;
+	border: 1px solid #2F4F4F;
+	padding: 20px;
+	}
+
+/*set width of fieldset, background color, margin, border and padding, clear floats and align text to left*/
+.enquiryform fieldset
+	{
+	text-align: left;
+	border: 0.2em solid #2F4F4F; 
+	width: 850px; 
+	background-color: #eff6f6; 
+	clear:both;
+	padding: 10px;
+	}
+
+/*style font in legends with color, align left and size 22, background color, border around text*/
+legend 
+	{ 
+	border: 0.2em solid #2F4F4F;
+	background-color: white; 
+	color: #347174; 
+	padding: 0.2em 0.5em; 
+	text-align: left;
+	font-size: 22px;
+	}
+
+/*set style div containing First Name, blocked, set width, float left, font weight, color & size, set left margin*/	
+.fname 	
+	{
+	display: block; 
+	width: 10em; 
+	float: left; 
+	font-weight: bold; 
+	font-size: 20px;
+	color: #2F4F4F; 
+	margin-left: 50px;
+	}
+
+/*set style div containing Last Name, blocked, set width, float left, font weight, color & size, set left margin*/	
+.lname 	
+	{
+	display: block; 
+	width: 10em; 
+	float: left; 
+	font-weight: bold;
+	font-size: 20px;
+	color: #2F4F4F; 
+	margin-left: 50px;
+	}
+	
+/*set style div containing email, blocked, set width, float left, font weight, color & size, set left margin*/	
+.emailadd 	
+	{
+	display: block; 
+	width: 10em; 
+	float: left; 
+	font-weight: bold;
+	font-size: 20px;
+	color: #2F4F4F; 
+	margin-left: 50px;
+	}
+
+/*set left margin of info div*/	
+.enqinfo
+	{
+	margin-left: 50px;
+	}
+
+/*center h3 in info section*/
+.enqinfo h3
+	{
+	text-align: center;
+	}
+
+/*center text in survey section & set left margin*/
+.enqsurvey
+	{
+	margin-left: 50px;
+	text-align: center;
+	}
+		
+/*center text in buttons div*/	
+.buttons
+	{
+	text-align: center;
+	}
+
+/*center radio buttons*/		
+.radio
+	{
+	text-align: center;
+	}
+
+/*style on focus border and background color*/
+:focus
+	{
+	border: 3px solid #2F4F4F; 
+	background-color: #e2eeee;
+	}

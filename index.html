@@ -1,0 +1,96 @@
+<!DOCTYPE html> <!--HTML 5 document-->
+<html lang = "en"> <!--language English-->
+
+<head> <!--head section-->
+	<meta charset ="utf-8"> <!--specify character encoding for unicode-->
+	<meta name="Description" content="Cryans Hotel, 3 star hotel in Carrick on Shannon"> <!--tell visitors what they can expect on website-->
+	<title>Cryans Hotel</title> <!--Page Title-->
+	<link rel ="stylesheet" type="text/css" href="css/mystyle.css"> <!--link to external stylesheet-->
+</head> <!--close head section-->
+
+<body> <!--open body section-->
+<div id="wrapper"> <!--set whole page inside container-->
+
+	<header> <!--open header section, same across all pages-->
+		<a class="active" href="index.html"><img class="one" src="images/logo2.png" alt="logo"></a> <!--apply logo to left of header-->
+		<img class="two" src="images/name.png" alt="name"> <!--apply site name to right of header-->
+	<nav> <!--main navigation bar same across all pages-->
+		<ul class="topnav">
+			<li><a class="active" href="index.html"><span>Home</span></a></li> <!--Nav bar page title elements-->
+			<li><a href="rooms.html"><span>Rooms</span></a></li>
+			<li><a href="dining.html"><span>Quayside Restaurant</span></a></li>
+			<li><a href="bar.html"><span>Regatta Bar</span></a></li>
+			<li><a href="location.html"><span>Location</span></a></li>
+			<li><a href="gallery.html"><span>Gallery</span></a></li>
+			<li><a href="sitemap.html">Sitemap</a></li>
+			<li><a href="links.html">Links</a></li>
+			<li><a href="form.html"><span>Enquiry Form</span></a></li>
+			<li class="right"><a href="contact.html"><span>Contact Us</span></a></li>
+		</ul>
+	</nav> <!--close nav bar-->
+	</header> <!--close header-->
+
+	<main> <!--open main section info different on each page-->
+		<div class="images"> <!--insert row of pictures under nav bar on top of home page, set in div-->
+			<img src="images/exterior_night.jpg" width="209" height="140" alt="exterior of hotel at night">
+			<img src="images/bar4.jpg" width="209" height="140" alt="bar">
+			<img src="images/bedroom_view.jpg" width="209" height="140" alt="view from bedroom">
+			<img src="images/bedroom2.jpg" width="209" height="140" alt="bedroom">
+			<img src="images/exterior.jpg" width="209" height="140" alt="exterior of hotel">
+			<img src="images/dining2.jpg" width="209" height="140" alt="dining room">
+		</div> <!--close div-->
+
+		<h1 class="content_title">Welcome To Cryans Hotel</h1> <!--welcome message-->
+		<h2 class="content_subtitle">Carrick on Shannon</h2>
+
+
+		<div class="text_container"> <!--hotel features set in div-->
+			<p>Family-run 3 Star Hotel</p>
+			<p>Located on the Quayside with stunning views of the River Shannon</p>
+			<p>Food Served Daily 8am - 9pm</p>
+			<p>24 beautifully appointed bedrooms</p>
+			<p>Traditional Irish Music in Cryans Teach Ceoil every Thursday, Saturday &amp; Sunday</p>
+			<p>Complimentary on-site parking</p>
+			<p>2 Hours from Dublin on the M4/N4 with public transport via Train &amp; Bus</p>
+		</div> <!--close div-->
+
+
+		<h2 style="text-align: center;">Book your break away today!</h2>
+
+		<ul class="icons"> <!--Facebook & mail links using icons-->
+			<li><a href="https://www.facebook.com/Cryans-Hotel-136682443077520/" target="_blank"><img src="images/facebook.jpg" width="50" height="50" alt="facebook logo" /></a>
+			<li><a href="mailto:info@cryanshotel.ie"><img src="images/email.jpg" width="50" height="50" alt="email logo" /></a>
+		</ul>
+
+		<div class="voucher"> <!--gift voucher div-->
+			<h2>Gift Vouchers Available from Hotel Reception</h2>
+			<p><a href="mailto:info@cryanshotel.ie"><img src="images/voucher.png" alt="voucher logo"></a></p>
+		</div><!--close div-->
+
+		<hr> <!--horizontal rule-->
+	</main> <!--close main section-->
+
+	<footer> <!--open footer same across all pages-->
+		<p style="text-align: center;"> <!--address, phone & email centered-->
+		Cryans Hotel, Carrick on Shannon, Co. Leitrim,Ireland<br>
+		Tel: + 353 71 9672066 <br>
+		Email: <a href="mailto:info@cryanshotel.ie">info@cryanshotel.ie:</a>
+		</p>
+
+		<div class="copy"> <!--copyright section, image credits, & date modified in div-->
+			<small>&copy; Copyright 2018 Pauline Finlay</small><br>
+			<small>Images by Keith Nolan Photography</small>
+			<script>
+			// script from BoogieJack.com
+			var m = "Page Last Updated " + document.lastModified;
+			var p = m.length-8;
+			document.writeln("<div style='font-size: 12px;'>");
+			document.write(m.substring(p, 0));
+			document.writeln("</div>");
+			</script>
+		</div> <!--close div-->
+	</footer> <!--close footer-->
+
+</div> <!--close page container div-->
+</body> <!--close body section-->
+</html> <!--close html doc-->
